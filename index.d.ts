@@ -1,1 +1,3 @@
-export = function isTruePrimitive(x: unknown): x is true
+declare function isTrue(x: unknown): x is true
+
+export = isTrue
